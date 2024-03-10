@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/kaudeshali/practiceoffullstack/issues"
   },
-  "homepage": "https://github.com/kaudeshali/practiceoffullstack#readme"
+  "homepage": "https://github.com/kaudeshali/practiceoffullstack#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
