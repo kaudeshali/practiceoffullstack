@@ -1,0 +1,26 @@
+{
+  "name": "practiceoffullstack",
+  "version": "1.0.0",
+  "description": "learning from the e book ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaudeshali/practiceoffullstack.git"
+  },
+  "keywords": [
+    "fullstack",
+    "react",
+    "node",
+    "mongodb",
+    "express"
+  ],
+  "author": "kaushal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaudeshali/practiceoffullstack/issues"
+  },
+  "homepage": "https://github.com/kaudeshali/practiceoffullstack#readme"
+}
