@@ -7,15 +7,19 @@
 
     <script src="https://unpkg.com/react/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+
+    <!-- babel compiler which transform jsx to js -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
     <div id="contents"></div>
 
-    <script>
-      const element = React.createElement(
-        "div",
-        { title: "Outer div" },
-        React.createElement("h1", null, "Hello World! From Kaushal!!")
+    <script type="text/babel">
+      // use jsx to create elements
+      const element = (
+        <div title="Outer dev">
+          <h1>Hello World. From Kaushal!!</h1>
+        </div>
       );
 
       ReactDOM.render(element, document.getElementById("contents"));
