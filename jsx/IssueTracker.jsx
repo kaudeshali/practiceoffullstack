@@ -22,7 +22,7 @@ class IssueAdd extends React.Component{
     }
 }
 
-class IssueTracker extends React.component{
+class IssueTracker extends React.Component{
     render() {
         return (
             <React.Fragment>
