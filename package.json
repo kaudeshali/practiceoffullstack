@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
-    "compile": "babel jsx --presets @babel/react --out-dir public"
+    "compile": "babel jsx --presets @babel/react --out-dir public",
+    "watch": "babel jsx --presets @babel/react --out-dir public --watch --verbose"
   },
   "repository": {
     "type": "git",
